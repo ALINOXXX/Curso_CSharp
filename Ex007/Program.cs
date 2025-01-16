@@ -4,10 +4,23 @@
     {
         static void Main(string[] args)
         {
-            double nota_final = 70;
+            double nota_final, n1, n2, n3, n4;
             string resultado;
 
-            Console.Write("digite sua nota: ");
+            Console.Write("digite a primeira  nota: ");
+            n1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("digite a primeira  nota: ");
+            n2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("digite a primeira  nota: ");
+            n3 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("digite a primeira  nota: ");
+            n4 = Convert.ToDouble(Console.ReadLine());
+
+            nota_final = (n1 + n2+n3 + n4) / 4;
+
             nota_final = Convert.ToDouble(Console.ReadLine());
             if (nota_final >= 70)
             {
